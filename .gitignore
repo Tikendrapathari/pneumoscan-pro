@@ -1,0 +1,21 @@
+# Model files (large files - don't push to git)
+models/*.h5
+models/*.keras
+models/pneumonia_model_saved/
+*.h5
+*.keras
+
+# Reports and uploads
+static/reports/*.pdf
+uploads/
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.pyc
+venv/
+.env
